@@ -2,7 +2,8 @@
 
 [![Build Status](https://secure.travis-ci.org/ahume/flight-click-trap.png)](http://travis-ci.org/ahume/flight-click-trap)
 
-A [Flight](https://github.com/flightjs/flight) component for…
+A [Flight](https://github.com/flightjs/flight) component for capturing clicks inside
+and outside of a component node.
 
 ## Installation
 
