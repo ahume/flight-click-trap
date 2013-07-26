@@ -11,8 +11,8 @@ bower install --save flight-click-trap
 ```
 
 ## Example
-```
 
+```javascript
 this.after('initialize', function() {
 	this.enableClickTrap();
 	this.on('componentReceivedClick', function() {
@@ -28,7 +28,8 @@ this.after('initialize', function() {
 The clicktrap has a performance overhead as it's called on every user click, so
 you'll likely want to disable it when your component is hidden or unused.
 
-```this.disableClickTrap()
+```javascript
+this.disableClickTrap()
 ```
 
 ## Development
