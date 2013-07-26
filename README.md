@@ -1,6 +1,6 @@
 # flight-click-trap
 
-[![Build Status](https://secure.travis-ci.org/<username>/flight-click-trap.png)](http://travis-ci.org/<username>/flight-flight-click-trap)
+[![Build Status](https://secure.travis-ci.org/ahume/flight-click-trap.png)](http://travis-ci.org/ahume/flight-click-trap)
 
 A [Flight](https://github.com/flightjs/flight) component for…
 
@@ -25,7 +25,7 @@ this.after('initialize', function() {
 
 ```
 
-The clicktrap has a performance overhead as it's called on every user click, so
+The clicktrap has a small performance overhead as it's called on every user click, so
 you'll likely want to disable it when your component is hidden or unused.
 
 ```javascript
